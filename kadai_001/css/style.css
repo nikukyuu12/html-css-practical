@@ -1,0 +1,207 @@
+google-fonts {
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+/* PC用 */
+@media screen and (min-width: 768px) {
+
+body {
+  max-width: 1080px;
+  min-width: 960;
+  margin: 0 auto 0 auto;
+  font-size: 18px;
+  background-color: #ffffff;
+}
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 20px 100px 20px 100px;
+}
+#myprofile {
+  border: solid 3px #000000;
+  padding: 5px 20px 5px 20px;
+  text-decoration-line: none;
+  color: #000000;
+  font-size: 34px;
+  font-weight: bold;
+}
+
+#nav-pc > a {
+  margin-left: 20px;
+  text-decoration-line: none;
+  color: #000000;
+  font-size: 34px;
+  font-weight: bold;
+  
+}
+
+main > img {
+  max-width: 1080px;
+  width: auto;
+}
+
+#about {
+  margin: 80px auto 80px auto;
+  width: 100%;
+}
+#about-flex {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+}
+
+#about-photo {
+  border-radius: 142px;
+  margin-right: 100px;
+}
+.index-h1 {
+  font-size: 34px;
+  text-align: center;
+  margin: 80px;
+}
+#about > div > h2 {
+  font-size: 24px;
+}
+ul {
+  line-height: 2;
+}
+
+#works {
+  width: 100%;
+  margin: 80px auto 80px auto;
+}
+#works-photo {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+#works-photo > div {
+  width: 250px;
+  margin: 10px;
+}
+.works {
+  width: 250px;
+  height: 200px;
+}
+
+footer {
+  text-align: center;
+}
+footer > span {
+  padding: 15px;
+}
+
+}
+
+
+/* スマホ用 */
+@media screen and (max-width: 767px) {
+
+  body {
+ 
+  margin: 0;    
+  font-size: 18px;
+  background-color: #ffffff;
+  }
+
+main {
+  width: 100%;
+}
+main > img {
+  width: 100%;
+}
+
+
+  header {
+  width: 100%;  
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  padding: 20px 0 20px 0;
+  }
+
+  #myprofile {
+  border: solid 3px #000000;
+  padding:  5px 5px 5px 5px;
+  text-decoration-line: none;
+  color: #000000;    
+  font-size: 24px;
+  font-weight: bold;
+  }
+
+  #nav-pc > a {
+  margin-right: 10px;
+  text-decoration-line: none;    
+  color: #000000;
+  font-size: 24px;    
+  font-weight: bold;  
+  }
+
+  #about {
+  text-align: center;
+  margin: 0 20px 0 20px;
+  } 
+  #about-flex {
+  width: 100%;
+  margin: 0 auto 0 auto;
+  
+  }
+  #about-flex > div {
+    
+    width: fit-content;
+    margin: auto;
+    text-align: left;;
+  }
+
+  #about-photo {
+  border-radius: 142px;
+}
+
+  .index-h1 {
+  width: 100%;
+  font-size: 34px;
+  text-align: center;
+
+  }
+  #about > div > h2 {
+  font-size: 24px;
+  margin: 0;
+  }
+  ul {
+  line-height: 2;
+  }
+
+  #works {
+  width: 100%;
+  }
+  #works-photo {
+  width: 100%;
+  margin-bottom: 80px;
+  }
+  
+  #works-photo > div {
+  text-align: center;
+  margin: 0 10px 0 10px;
+  
+  } 
+  .works {
+  width: 100%;
+  height: 300px;
+  }
+  
+  footer {
+  text-align: center;
+  }
+  footer > span {
+  padding: 15px;
+  }
+  
+}
