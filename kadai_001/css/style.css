@@ -24,14 +24,14 @@ header {
 #myprofile {
   border: solid 1px #000000;
   padding: 0 20px;
-  margin: 20px 0 20px 20px;
+  margin: 20px 0 20px 80px;
   text-decoration-line: none;
   color: #000000;
   font-size: 34px;
   font-weight: bold;
 }
 #nav-pc {
-  margin-right: 20px
+  margin-right: 80px
 }
 #nav-pc > a {
   margin: 0 20px;
